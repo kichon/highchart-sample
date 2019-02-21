@@ -1,0 +1,19 @@
+{
+  "name": "highchart-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:watch": "webpack --mode development --watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start:dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "highcharts": "^7.0.3",
+    "path": "^0.12.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
